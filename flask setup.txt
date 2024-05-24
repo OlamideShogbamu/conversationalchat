@@ -1,0 +1,8 @@
+
+flask+pandas project setup:
+pip install virtualenv
+virtualenv env
+./env/Scripts/activate.bat
+$env:FLASK_APP = "flask_server.py"
+pip install flask
+pip install pandas
